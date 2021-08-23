@@ -170,6 +170,10 @@ video{
   text-decoration-style: ;
 }
 
+.page1_4_img img{
+  width: 40vw;
+}
+
 #page4 {
  background-color: #FFFFFF; 
 }
