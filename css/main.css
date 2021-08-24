@@ -20,13 +20,13 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: #F6F6F6;
-  padding: 8px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   border-bottom: solid 1px #707070;
   position: relative;
 }
 
 .navbar_logo {
-  font-size: 30px;
+  width: 10%;
   color: #F6F6F6;
   padding-left: 10%;
 }
@@ -192,7 +192,7 @@ video {
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
-    padding: 8px 24px;
+    /* padding: 8px 0px; */
     position: relative;
   }
 
@@ -230,14 +230,14 @@ video {
   }
 
   #page1 .page1_1 {
-    font-size: 40px;
-    margin: 20px 0 20px 20px;
+    font-size: 30px;
+    margin: 20px 0 0px 20px;
     font-weight: bold;
   }
 
   #page1 .page1_2 {
     font-size: 15px;
-    margin: 50px 0 40px 20px;
+    margin: 20px 0 40px 20px;
   }
 
   #page1 .page1_3 img {
@@ -246,14 +246,14 @@ video {
   }
 
   #page2 .page2_1 {
-    font-size: 40px;
-    margin: 100px 0 40px 20px;
+    font-size: 30px;
+    margin: 20px 0 0px 20px;
     font-weight: bold;
   }
 
   .content_2 {
     font-size: 15px;
-    margin: 0px 0 40px 20px;
+    margin: 20px 0 40px 20px;
     position: relative;
     float: left;
   }
@@ -272,8 +272,7 @@ video {
   .link {
     position: absolute;
     font-size: 15px;
-    margin: 200px 40px 80px 20px;
-    text-decoration: none;
+    margin: 200px 40px 20px 20px;
     color: #707070;
   }
 
@@ -299,12 +298,11 @@ video {
   #page3 .page3_2 {
     margin: 0px 0px 0px 0px;
     font-size: 15px;
-    padding-top: 40px;
+    padding-top: 20px;
     color: #FFFFFF;
   }
 
   #page3 .page3_3 {
-    margin: 0px 0 20px 0px;
     font-size: 15px;
     padding-top: 40px;
     color: #FFFFFF;
@@ -315,10 +313,10 @@ video {
   }
 
   #page4 .page4_1 {
-    margin: 0px 0px 0px 20px;
+    margin: 20px 0 0px 20px;
     font-size: 30px;
     font-weight: bold;
-    padding-top: 100px;
+    padding-top: 40px;
     color: #221E1F;
   }
 
@@ -342,5 +340,6 @@ video {
     padding: 40px 0px 20px 0px;
     color: #221E1F;
     text-decoration: none;
+    font-weight: bold;
   }
 }
