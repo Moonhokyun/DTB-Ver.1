@@ -1,505 +1,283 @@
-body {
-  color: #221E1F;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.4;
+#html {
   font-family: 'Noto Sans KR', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  background-color: #ffffffbb;
-  margin: 0;
+  font-size: 10px;
 }
 
-a {
-  text-decoration: none;
+#body {
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 6.6rem;
   color: #221E1F;
 }
 
-/*navbar*/
-.navbar {
-  width: 100%;
+.nav_fixed {
   display: flex;
-  justify-content: space-between;
+  background-color: black;
+  color: #fff;
   align-items: center;
-  background-color: #ffffffbb;
-  padding: 0px 0px 0px 0px;
-  position: relative;
-}
-
-.navbar_logo {
-  width: 6%;
-  color: #ffffffbb;
-  padding-top: 2%;
-  padding-left: 4%;
-  padding-bottom: 2%;
-}
-
-.navbar_menu {
-  display: flex;
-  list-style: none;
-  padding-left: 0;
-}
-
-.navbar_menu li {
-  padding: 8px 12px;
-}
-
-.navbar_menu li:hover {
-  background-color: #ffffffbb;
-  border-radius: 4px;
-  transition: 0.2s;
-}
-
-.navbar_icons {
-  font-size: 40px;
-  list-style: none;
-  color: #221E1F;
-  display: flex;
-  padding-left: 0;
-  padding-right: 10%;
-}
-
-.navbar_icons li {
-  padding: 8px 12px;
-}
-
-.navbar_toggleBtn {
-  display: none;
-  position: absolute;
-  right: 32px;
-  font-size: 40px;
-  color: #221E1F;
-  padding-top: 20px;
-}
-/*navbar*/
-
-/*프로필*/
-video {
-  position: relative;
-    z-index: 0;
-}
-
-#page1 {
-  margin: 40px 60px 60px 60px;
-  text-align: center;
-}
-
-#page1 .page1_1 {
-  margin-bottom: 40px;
-  border-bottom: 1px solid #221E1F;
-}
-
-#page1 .page1_1 .page1_1_profile_title {
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-  margin-bottom: 40px;
-}
-
-#page1 .page1_1 .page1_1_profile_image {
-  width: 70%;
-  margin-bottom: 20px;
-}
-
-#page1 .page1_1 .page1_1_profile_name {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-#page1 .page1_1 .page1_1_profile_sub {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 40px;
-}
-
-#page1 .page1_2 {
-  font-size: 16px;
-}
-
-#page1 .page1_2 h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#page1 .page1_2 #page1_2_career {
-  font-size: 16px;
-  margin: 10px 10px;
-}
-
-#page1 .page1_2 a.button {
-  display: block;
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 40px;
-}
-
-/*프로필의 히든창*/
-#page1 .page1_2 .page1_2_career_hidden {
-  display: none;
-}
-
-#page1 .page1_2 .page1_2_career_hidden h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#page1 .page1_2 .page1_2_career_hidden #page1_2_career {
-  font-size: 16px;
-  margin: 10px 10px;
-}
-
-/*프로필의 히든창*/
-
-#page1 .page1_3 .page1_3_title {
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-  margin-bottom: 20px;
-  border-top: 1px solid #221E1F;
-  padding-top: 40px;
-}
-
-#page1 img {
-  text-align: center;
-  width: 33%;
-  display: inline-block;
-}
-
-/*프로필*/
-
-  /*레슨 및 문의*/
-  #page2 {
-    margin: 60px;
-    padding-bottom: 20px;
-  }
-
-  #page2 .page2_1 {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-
-  #page2 .page2_2 {
-    font-size: 16px;
-  }
-
-  #page2 .page2_3 {
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: bold;
-  }
-
-  /*레슨 및 문의*/
-
-/*오시는 길*/
-#page3 {
-  margin: 60px;
-  border-top: 1px solid #221E1F;
-}
-
-#page3 .page3_1 {
-  font-size: 24px;
-  font-weight: bold;
-  padding: 40px 0px 40px 0px;
-}
-
-/*오시는 길*/
-
-/*유튜브&인스타*/
-#page4 {
-  margin: 20px 0 0 0;
-  background-color: #221E1F;
-  padding-bottom: 40px;
-}
-
-#page4 a {
-  color: #ffffff;
-}
-
-#page4 .page4_1 {
-  color: #ffffff;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  padding-top: 20px;
-  opacity: 80%;
-}
-
-#page4 .page4_2 {
-  padding: 20px;
-  opacity: 80%;
-  color: #ffffff;
-  text-align: center;
-  font-size: 16px;
-  opacity: 80%;
-}
-
-#page4 .page4_3 {
-  opacity: 80%;
-  margin: 0;
-  font-size: 40px;
-}
-
-#page4 .page4_3 img {
-  opacity: 80%;
-  width: 40px;
-}
-
-#page4 .page4_3 .insta a {
-  opacity: 80%;
-  display: block;
-}
-
-#page4 .page4_3 .youtube a {
-  opacity: 80%;
-  display: block;
-}
-
-#page4 .page4_3 table {
-  text-align: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1.3rem 2rem 1.3rem 1rem;
+  font-size: 1.4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 0.1rem solid #fff;
+  z-index: 9999;
   width: 100%;
-  table-layout: fixed;
 }
 
-/*유튜브&인스타*/
+.nav_logo_group {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
 
-@media screen and (max-width: 800px) {
+.nav_logo_txt {
+  /* margin-right: 4rem; */
+  display: block;
+  height: 0.8rem;
+  padding-left: 1rem;
 
-  /*navbar*/
-  .navbar {
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    padding-bottom: 40px;
-  }
+}
 
-  .navbar_menu {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
+.nav_txt {
+  margin-right: 4rem;
+}
 
-  .navbar_menu li {
-    width: 100%;
-    text-align: center;
-  }
+.nav_logo {
+  width: 6rem;
+}
 
-  .navbar_logo {
-    width: 20%;
-    color: #ffffffbb;
-    padding-top: 6%;
-    padding-left: 4%;
-  }
+.margin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2rem 4rem;
+}
 
-  .navbar_icons {
-    display: none;
-    justify-content: center;
-    width: 100%;
-  }
+.video {
+  width: 100%;
+  display: block;
+  margin-bottom: 4rem;
+}
 
-  .navbar .navbar_toggleBtn {
-    display: block;
-  }
+.title_all {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-bottom: 2rem;
+}
 
-  .navbar_menu.active,
-  .navbar_icons.active {
-    display: flex;
-  }
+.title_main {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-bottom: 2rem;
+}
 
-  /*navbar*/
+.title_txt {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  width: 22.7rem;
+}
 
-  /*프로필*/
-  video {
-    position: relative;
-    z-index: 0;
-  }
+.section {
+  border-bottom: 0.1rem solid #221E1F;
+  margin-bottom: 2rem;
+}
 
-  #page1 {
-    margin: 20px;
-    text-align: center;
-  }
+.profile_img {
+  width: 16.4rem;
+  margin-bottom: 2rem;
+}
 
-  #page1 .page1_1 {
-    margin-bottom: 20px;
-    border-bottom: 1px solid #221E1F;
-  }
+.profile_name {
+  margin-bottom: 1rem;
+}
 
-  #page1 .page1_1 .page1_1_profile_title {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 20px;
-  }
+.profile_txt {
+  margin-bottom: 2rem;
+}
 
-  #page1 .page1_1 .page1_1_profile_image {
-    width: 70%;
-    margin-bottom: 20px;
-  }
+.profile_spec {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
 
-  #page1 .page1_1 .page1_1_profile_name {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  #page1 .page1_1 .page1_1_profile_sub {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
-  #page1 .page1_2 {
-    font-size: 16px;
-  }
-
-  #page1 .page1_2 h2 {
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  #page1 .page1_2 #page1_2_career {
-    font-size: 16px;
-    margin: 10px 10px;
-  }
-
-  #page1 .page1_2 a.button {
-    display: block;
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
-  /*프로필의 히든창*/
-  #page1 .page1_2 .page1_2_career_hidden {
-    display: none;
-  }
-
-  #page1 .page1_2 .page1_2_career_hidden h2 {
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  #page1 .page1_2 .page1_2_career_hidden #page1_2_career {
-    font-size: 16px;
-    margin: 10px 10px;
-  }
-
-  /*프로필의 히든창*/
-
-  #page1 .page1_3 .page1_3_title {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 20px;
-    border-top: 1px solid #221E1F;
-    padding-top: 20px;
-  }
-
-  #page1 img {
-    width: 100%;
-    display: inline-block;
-  }
-
-  /*프로필*/
-
-  /*레슨 및 문의*/
-  #page2 {
-    margin: 20px;
-    padding-bottom: 20px;
-  }
-
-  #page2 .page2_1 {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-
-  #page2 .page2_2 {
-    font-size: 16px;
-  }
-
-  #page2 .page2_3 {
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: bold;
-  }
-
-  /*레슨 및 문의*/
-
-  /*오시는 길*/
-  #page3 {
-    margin: 20px;
-    border-top: 1px solid #221E1F;
-  }
-
-  #page3 .page3_1 {
-    font-size: 24px;
-    font-weight: bold;
-    padding: 20px 0px 20px 0px;
-  }
-
-  /*오시는 길*/
+.profile_spec_2 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
 
 
-  /*유튜브&인스타*/
-  #page4 {
-    margin: 20px 0 0 0;
-    background-color: #221E1F;
-    padding-bottom: 40px;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  width: 15.8rem
+}
 
-  #page4 a {
-    color: #ffffff;
-  }
+.container_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
 
-  #page4 .page4_1 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    padding-top: 20px;
-    opacity: 80%;
-  }
+.spec_title {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
 
-  #page4 .page4_2 {
-    padding: 10px;
-    opacity: 80%;
-    color: #ffffff;
-    text-align: center;
-    font-size: 14px;
-    opacity: 80%;
-  }
+.spec_sub {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #969696;
+}
 
-  #page4 .page4_3 {
-    opacity: 80%;
-    margin: 0;
-    font-size: 40px;
-  }
+.last_spec {
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid #221E1F;
+}
 
-  #page4 .page4_3 img {
-    opacity: 80%;
-    width: 40px;
-  }
+.slider {
+  margin: 0 auto;
+  padding: 0;
+}
 
-  #page4 .page4_3 .insta a {
-    opacity: 80%;
-    display: block;
-  }
+.st_img {
+  width: 100%;
+  z-index: -1;
+}
 
-  #page4 .page4_3 .youtube a {
-    opacity: 80%;
-    display: block;
-  }
+.lesson_container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
 
-  #page4 .page4_3 table {
-    text-align: center;
-    width: 100%;
-    table-layout: fixed;
-  }
+.lesson_ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  justify-content: center;
+  width: 15.8rem;
+  height: 6.2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  background-color: black;
+  color: #fff;
+  font-weight: 400;
+  padding: 1.4rem 3.6rem;
+  box-sizing: border-box;
+}
 
-  /*유튜브&인스타*/
+.bx-wrapper .bx-controls-direction a {
+  z-index: -1;
+}
+
+.li_txt {
+  font-size: 1rem;
+  display: block;
+  line-height: 1.2rem;
+}
+
+.li_txt_bottom {
+  margin-bottom: 1rem;
+}
+
+.map {
+  padding-bottom: 2rem;
+}
+
+.mb-20 {
+  margin-bottom: 1.6rem;
+}
+
+.highlight {
+  background-color: #221E1F;
+  width: fit-content;
+  padding: 1rem;
+}
+
+.naver_link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  padding-bottom: 10rem;
+  font-weight: 300;
+}
+
+.footer_logos {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.footer_dtb_logo {
+  width: 6.8rem;
+}
+
+.footer_link {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.icon {
+  margin: 0 auto;
+  height: 2rem;
+  display: block;
+}
+
+.dl {
+  display: flex;
+  margin-bottom: 1.6rem;
+  margin-left: 1.5rem;
+}
+
+dt::after {
+  content: ':';
+  padding: 0.4rem;
+}
+
+.btn_fixed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 7.5rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1.3rem 2rem 1.3rem 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 0.1rem solid #fff;
+  border-width: 0.1rem 0 0 0;
+  z-index: 9999;
 }
