@@ -10,6 +10,10 @@
   color: #221E1F;
 }
 
+.up_on_scroll {
+  transition: transform 2s, opacity 1s;
+}
+
 .nav_fixed {
   display: flex;
   background-color: black;
