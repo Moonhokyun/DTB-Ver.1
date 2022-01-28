@@ -212,6 +212,7 @@
   background-color: #221E1F;
   width: fit-content;
   padding: 1rem;
+  cursor: pointer;
 }
 
 .naver_link {
@@ -243,6 +244,8 @@
   display: flex;
   align-items: center;
   gap: 2rem;
+  cursor: pointer;
+
 }
 
 .icon {
@@ -280,4 +283,5 @@ dt::after {
   border: 0.1rem solid #fff;
   border-width: 0.1rem 0 0 0;
   z-index: 9999;
+  cursor: pointer;
 }
